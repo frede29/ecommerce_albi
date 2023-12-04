@@ -52,7 +52,7 @@
 </nav>
 
 <div class="container text-center">
-<a class="title" text center><strong><em> <span style=" font-size: 40px; color:#046380;text-decoration: underline;" >Deposer une offre</span> </em></strong></a><br><br><br>
+<a class="title" text center><strong><em> <span style=" font-size: 40px; color:#046380;text-decoration: underline;" >Nous contacter</span> </em></strong></a><br><br><br>
 </div>
 
 <div id="collapseTwo" class="collapse" data-parent="#accordion">

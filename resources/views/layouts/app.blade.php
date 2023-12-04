@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fichier.css') }}" rel="stylesheet">
 </head>
 <body>
     <!--barre de navigation-->
@@ -26,8 +27,8 @@
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="{{asset('img/logo.png')}}" width="100px" class="pr-3" style="border-right: solid 1px #333;">
-                <span class="pl-3">ALUMNI</span>
+                <img src="{{asset('img/mylogo.jpg')}}" width="100px" class="pr-3" style="border-right: solid 1px #333;">
+                <span class="pl-3">EXOTIQUE ALBI</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
@@ -35,21 +36,9 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="right: 15px;">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="http://localhost:4200/">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="http://localhost:8000/">Forum</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://localhost:4200/" id="navbardrop" data-toggle="dropdown">
-                            Carrières
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="">Déposer offre </a>
-                            <a class="dropdown-item" href="#">Consulter offre</a>
-                            <a class="dropdown-item" href="https://www.cci.univ-tours.fr/temoignages">Témoignages</a>
-
-                        </div>
-                    </li>
-
-                    <a class="nav-item nav-link" href="http://localhost:8040/laravel-master/stats/index.php">Statistique</a>
+                    <a class="nav-item nav-link" href="#">A propos</a>                   
+                    <a class="nav-item nav-link" href="#">Nos produits</a>
+                    <a class="nav-item nav-link" href="{{ route('contact') }}">Nous contacter</a>
                 </div>
             </div>
 
